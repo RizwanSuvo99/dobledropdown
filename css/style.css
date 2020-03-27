@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.nav{
+	overflow: hidden;
+	width: 100%;
+	background-color: darkgreen;
+}
+
+ul li{
+	list-style-type: none;
+	float: left;
+}
+
+a{
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	color:white;
+	font-weight: bold;
+	transition: .5s all ease;
+	position: relative;
+	background-color: darkgreen;
+}
+
+a:hover{
+	background-color: aquamarine;
+	color: darkred;
+	transition: .5s all ease;
+}
+
+.nav ul li ul li{
+	display: block;
+	float: none;
+}
+
+.nav ul li ul{
+	position: absolute;
+	display: none;
+}
+
+.nav ul li:hover>ul{
+	display: block;
+	
+}
+
+.nav ul li ul li{
+	position: relative;
+}
+
+.nav ul li ul li ul li{
+	display: block;
+	float: none;
+}
+
+.nav ul li ul li ul{
+	left: 100%;
+	top: 0;
+	position: absolute;
+}
+
+.nav ul li ul li ul{
+	display: none;
+}
+
+
+
+
